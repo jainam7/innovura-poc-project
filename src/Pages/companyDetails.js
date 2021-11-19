@@ -78,7 +78,9 @@ const companyDetails = (props) => {
                   class="marginTop10 iconColor"
                   style={{ textAlign: "center" }}
                 >
-                  <AiFillPlusSquare />
+                  <a href="#">
+                    <AiFillPlusSquare />
+                  </a>
                 </h4>
               </div>
             </div>
@@ -100,7 +102,9 @@ const companyDetails = (props) => {
                 <li>Branding & Creative</li>
                 <li>
                   Ipads Apps &nbsp;
-                  <span style={{ color: "blue" }}>More ....</span>
+                  <a style={{ color: "blue", textDecoration: "none" }} href="#">
+                    More ....
+                  </a>
                 </li>
               </ul>
             </div>
@@ -175,7 +179,9 @@ const companyDetails = (props) => {
                 textAlign: "center",
               }}
             >
-              <BsPencilSquare />
+              <a href="#" style={{ color: "gray" }}>
+                <BsPencilSquare />
+              </a>
             </span>
             <span>Write Reviews</span>
           </div>
@@ -186,13 +192,17 @@ const companyDetails = (props) => {
                   class="iconColor fontSize25"
                   style={{ marginLeft: "20px" }}
                 >
-                  <BsFillChatDotsFill />
+                  <a href="#">
+                    <BsFillChatDotsFill />
+                  </a>
                 </span>
               </div>
               <div class="col-2">
-                <span class="enquiryIconColor fontSize25">
-                  <MdMessage />
-                </span>
+                <a href="#">
+                  <span class="enquiryIconColor fontSize25">
+                    <MdMessage />
+                  </span>
+                </a>
               </div>
             </div>
             <div class="row">

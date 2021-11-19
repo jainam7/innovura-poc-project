@@ -34,7 +34,10 @@ const sideBar = () => {
 
         <div class="dropdown" style={{ margin: "5px 0px" }}>
           <div style={{ border: "1px solid #DDD" }} class="filterDetails">
-            <MdOutlineSearch /> &nbsp;
+            <span class="iconColor">
+              <MdOutlineSearch />
+            </span>
+            &nbsp;
             <input
               style={{ border: "none" }}
               type="text"
