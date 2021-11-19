@@ -1,6 +1,6 @@
 import React from "react";
 import { GiScales } from "react-icons/gi";
-import { BsFillChatDotsFill, BsPencilSquare, BsPlus } from "react-icons/bs";
+import { BsFillChatDotsFill, BsPencilSquare } from "react-icons/bs";
 import {
   MdVerified,
   MdMessage,
