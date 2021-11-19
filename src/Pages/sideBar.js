@@ -16,9 +16,12 @@ const sideBar = () => {
             <span>Fiters</span>
           </div>
           <div class="col">
-            <span style={{ textDecorationLine: "underline", color: "blue" }}>
+            <a
+              style={{ textDecorationLine: "underline", color: "blue" }}
+              href="#"
+            >
               Clear
-            </span>
+            </a>
           </div>
         </div>
         <div class="row">
